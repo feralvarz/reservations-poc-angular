@@ -1,0 +1,13 @@
+// .sala.active ul li {
+//   color: coral;
+// }
+
+.sala {
+  &.active {
+    ul {
+      li {
+        color: #333;
+      }
+    }
+  }
+}
